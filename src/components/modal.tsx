@@ -2,7 +2,7 @@ import React from "react";
 import { observer } from "mobx-react";
 import { Modal, Button, Input, Rate } from "antd";
 import { DeleteOutlined, PlusOutlined, MinusOutlined } from "@ant-design/icons";
-import productStore, { Product } from "../store/products";
+import productStore from "../store/products";
 
 interface ModalProps {
   isModalOpen: boolean;
